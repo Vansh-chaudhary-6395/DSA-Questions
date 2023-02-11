@@ -20,9 +20,10 @@ int main(){
 	
 	string s, t;
 	cout<<"enter the string"<<endl;
-	 cin>>s;
-	 string fi= "avnic";
-	 string seeen = "mahak";
+//	 cin>>s;
+getline(cin, s);
+	 string fi= "Ram";
+	 string seeen = "Sam";
 	int st;
 	 int n = fi.size();
 	 for(int i =0; i < s.size(); i++){
