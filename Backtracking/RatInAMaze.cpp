@@ -54,7 +54,7 @@ if(  (newx >=0 && newx <board.size()) &&(newy >=0 && newy<= board[0].size()) && 
 	
 	bool leftAns = false;
 	 newx = srcx;
-	newy = srcy+1;
+	newy = srcy-1;
 	
 	if(isSafe(newx, newy, board, vis)){
 		vis[newx][newy]=  1;
@@ -68,7 +68,7 @@ if(  (newx >=0 && newx <board.size()) &&(newy >=0 && newy<= board[0].size()) && 
 	// for right
 	bool rightAns = false;
 	 newx = srcx;
-	 newy = srcy -1;
+	 newy = srcy +1;
 	if(isSafe(newx, newy, board, vis)){
 		vis[newx][newy]=  1;
 		output.push_back('R');
