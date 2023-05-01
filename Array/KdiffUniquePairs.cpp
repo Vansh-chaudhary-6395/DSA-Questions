@@ -64,6 +64,15 @@ int main(){
 	} 
 	cout<<endl;
 	
+	
+	set<pair<int, int>>st;
+	 st.insert({1,2});
+	 st.insert({2,1});
+	 cout<<"set size is "<<st.size();
+	 
+	
+	
+	
 	 
 	 
 }
